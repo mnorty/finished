@@ -1,0 +1,153 @@
+html {
+	box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+	box-sizing: inherit;
+}
+
+body {
+	margin: 0;
+	font-family: sans-serif;
+}
+
+.shipping-promo {
+	height: 50px;
+	background: #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+
+.shipping-promo span {
+	font-weight: bold;
+}
+
+.shipping-promo a {
+	color: #fff;
+}
+
+nav {
+	text-transform: capitalize;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 4em;
+}
+
+.brand {
+	text-transform: uppercase;
+	font-family: serif;
+}
+
+nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+	display: flex;
+}
+
+nav ul li {
+	margin: 0 10px;
+}
+
+.hero {
+	height: 90vh;
+	background: #d7e0e5;
+	margin: 0 4em;
+	display: flex;
+	align-items: center;
+}
+
+.hero-text {
+	width: 300px;
+	margin-left: 15em;
+}
+
+.hero-text h1 {
+	margin: 0;
+	text-transform: capitalize;
+}
+
+.sub-heading {
+	font-weight: 400;
+}
+
+.hero-text p {
+	margin-top: 0;
+}
+
+.promo {
+	margin: 15em 4em 0;
+	height: 75vh;
+	display: flex;
+}
+
+.promo .left,
+.promo .right {
+	width: 50%;
+	height: 100%;
+}
+
+.promo .left {
+	background: blue;
+	margin-right: 1em;
+}
+
+.promo .right {
+	background: tan;
+	margin-left: 1em;
+}
+
+.alteration-promo {
+	display: flex;
+	height: 350px;
+	margin: 10em 4em 0;
+}
+
+.outer-left {
+	display: flex;
+	width: 50%;
+}
+
+.left,
+.right {
+	width: 25%;
+}
+
+.square {
+	height: 50%;
+}
+
+.square:nth-child(odd) {
+	margin-bottom: 3px;
+}
+
+.one {
+	background: tomato;
+}
+
+.two {
+	background: aqua;
+}
+
+.three {
+	background: slategray;
+}
+
+.four {
+	background: gold;
+}
+
+.middle {
+	width: 50%;
+	background: #000;
+	margin: 0 3px;
+}
+
+.outer-right {
+	background: #ccc;
+	width: 50%;
+}
