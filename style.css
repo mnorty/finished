@@ -53,6 +53,18 @@ nav ul li {
 	margin: 0 10px;
 }
 
+.nordyClub{
+	background: #ffffff;
+	margin: 0 6.5em;
+	font-size: 10px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: space-between;
+}
+
 .hero {
 	height: 90vh;
 	background: #d7e0e5;
@@ -78,76 +90,78 @@ nav ul li {
 .hero-text p {
 	margin-top: 0;
 }
+.heroInnerLeft{
+	background: #8CAEC1;
+	height: 100%;
+	width:25%;
+}
+
+.heroInnerMiddle{
+	background: #8CAEC1;
+	height: 100%;
+	width:55%
+}
+
+.heroInnerRight{
+	background:#F8F7F5;
+	height: 100%;
+	width:20%;
+}
+
+.whatGive{
+	margin-top:80px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: space-between;
+}
 
 .promo {
-	margin: 15em 4em 0;
+	margin: 2em 4em 0;
 	height: 75vh;
 	display: flex;
+	background:#E4E0D7;
 }
 
-.promo .left,
-.promo .right {
-	width: 50%;
-	height: 100%;
-}
-
-.promo .left {
-	background: blue;
-	margin-right: 1em;
-}
-
-.promo .right {
-	background: tan;
-	margin-left: 1em;
-}
-
-.alteration-promo {
+.mothersDay {
+	background: #ffffff;
 	display: flex;
-	height: 350px;
-	margin: 10em 4em 0;
+	height: 120vh;
+	margin: 0 4em;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
 }
 
-.outer-left {
+.mothersDayLeft {
+	background: #E4E0D7;
+	height: 95%;
+	width: 60%;
+}
+
+.mothersDayRight {
+	background: #ffffff;
+	height: 95%;
+	width:39%;
 	display: flex;
-	width: 50%;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	align-items: center;
+	align-content: stretch;
 }
 
-.left,
-.right {
-	width: 25%;
+.momDayRTop {
+	background: #E4E0D7;
+	height:49%;
+	width:100%;
 }
 
-.square {
-	height: 50%;
-}
-
-.square:nth-child(odd) {
-	margin-bottom: 3px;
-}
-
-.one {
-	background: tomato;
-}
-
-.two {
-	background: aqua;
-}
-
-.three {
-	background: slategray;
-}
-
-.four {
-	background: gold;
-}
-
-.middle {
-	width: 50%;
-	background: #000;
-	margin: 0 3px;
-}
-
-.outer-right {
-	background: #ccc;
-	width: 50%;
+.momDayRBottom {
+	background: #E4E0D7;
+	height:49%;
+	width:100%;
 }
